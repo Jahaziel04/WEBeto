@@ -367,7 +367,11 @@ img.red_social{
 
 
 
-
+div.share_buttons{
+	/*width:600px;*/
+	position: relative;
+		top: -2em;
+}
 
 		div.plus{
 			/*width: 55%;	Jahaziel*/
