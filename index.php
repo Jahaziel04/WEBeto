@@ -300,7 +300,7 @@
 				
 				<p class="footer_text">Copyright © 2015 Abogado en Chiapas - Coello's & Asociados.</p>
 			
-				<p class="footer_text2">©copyright Todos los derechos Reservados.</p>
+				<p class="footer_text2">Todos los derechos Reservados.</p>
 
 				<div class="footer_text_margin">
 					<p class="footer_text">Teléfonos: 
