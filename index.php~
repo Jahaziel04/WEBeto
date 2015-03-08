@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html xml:lang="es-es" lang="es-es" >
+
+	<head>
+		<link rel="stylesheet" href="css/videoSlider.css" type="text/css" />
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/jssor.slider.mini.js"></script>
+		<script src="https://apis.google.com/js/platform.js" async defer>
+  		{lang: 'es'}
+		</script>
+		<script>
+    		jQuery(document).ready(function ($) {
+        		var options = { $AutoPlay: true };
+        		var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+				//responsive code begin
+				//you can remove responsive code if you don't want the slider scales while window resizes
+				function ScaleSlider() {
+    				var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+    				if (parentWidth)
+        				jssor_slider1.$ScaleWidth(Math.min(parentWidth, 1920));
+    				else
+        				window.setTimeout(ScaleSlider, 30);
+				}
+				ScaleSlider();
+
+				$(window).bind("load", ScaleSlider);
+				$(window).bind("resize", ScaleSlider);
+				$(window).bind("orientationchange", ScaleSlider);
+    		});
+
+    		jQuery(document).ready(function ($) {
+        		var options = {
+        			$AutoPlay: false,
+            		$ArrowNavigatorOptions: {
+                		$Class: $JssorArrowNavigator$,
+                		$ChanceToShow: 2
+            		}
+        		};
+        		var jssor_slider1 = new $JssorSlider$("video_slider", options);
+        	});
+        		    		
+		</script>
+		<link rel="stylesheet" href="css/main.css" type="text/css" />
+		<link rel="stylesheet" href="css/menu.css" type="text/css" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		
+		<title>Abogado en chiapas</title>
+		
+		<!--[if IE]>
+  			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+<body>
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.0";
+  		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	<header name="top">
+
+	
+	
+		<div id="slider1_container" style="  position: relative; top: 0px; left: 0px; width:1300px;height:300px;">
+    		<!-- Slides Container -->
+    		<div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width:1300px;height:300px;">
+        		<div>
+        			<img u="image" src="img/img1.jpg" />
+        	
+        			<div class="header_title" >			
+						<div class="l_header">
+							<img class="logo_header" src="img/logo_m.png"  alt="Coello's & Asociados" >
+						</div>
+			
+						<div class="r_header">
+							<div class="titulo_s" >Despacho Jurídico</div>
+							<div class="titulo_m" >Coello’S & Asociados</div>
+							<div class="titulo_s" >Investigaciones Privadas y</div>
+							<div class="titulo_s" >Servicios Periciales</div>
+						</div>			
+					</div>	
+		
+        			<div class="slider_text_a" >
+                        Abogado en chiapas
+                        <br>
+                        M.D. Lic. Gabriel Suárez Coello                        
+                	</div>
+        		</div>
+        		<div>
+        			<img u="image" src="img/img2.jpg" />
+        			
+        			<div class="header_title" >			
+						<div class="l_header">
+							<img class="logo_header" src="img/logo_m.png"  alt="Coello's & Asociados" >
+						</div>
+			
+						<div class="r_header">
+							<div class="titulo_s" >Despacho Jurídico</div>
+							<div class="titulo_m" >Coello’S & Asociados</div>
+							<div class="titulo_s" >Investigaciones Privadas y</div>
+							<div class="titulo_s" >Servicios Periciales</div>
+						</div>			
+					</div>	
+					
+        			<div class="slider_text_b" >
+                        Comunícate a los teléfonos:
+                        <br>
+                        961 - 24.54.650
+                        <br>
+                        961 - 25.4.34.74  
+                        <br><br>
+                        Email:  coellosyasociados@hotmail.com                      
+                	</div>
+        		</div>
+        		<div>
+        			<img u="image" src="img/img3.jpg" />
+        			
+        			<div class="header_title" >			
+						<div class="l_header">
+							<img class="logo_header" src="img/logo_m.png"  alt="Coello's & Asociados" >
+						</div>
+			
+						<div class="r_header">
+							<div class="titulo_s" >Despacho Jurídico</div>
+							<div class="titulo_m" >Coello’S & Asociados</div>
+							<div class="titulo_s" >Investigaciones Privadas y</div>
+							<div class="titulo_s" >Servicios Periciales</div>
+						</div>			
+					</div>	
+					        			
+        			<div class="slider_text_c" >
+                        <p class="titulo_slider" >Coello's & asociados</p>                        
+                        "Para que lo legal sea justo"                       
+                	</div>
+        		</div>
+    		</div>
+		</div>
+
+
+
+			
+        <ul class="menu">
+            <li><a class="menu_item" href="#">Inicio</a></li>
+            <li class="anidado" >
+                <a class="menu_item" href="#">Blog <span class="arrow">&#9660;</span></a> 
+                <ul class="submenu">
+                    <a class="submenu_item" href="#"><li>Acerca del reparto de utilidades</li></a>
+                    <a class="submenu_item" href="#"><li>Hostigar deudores: delito en DF</li></a>
+                    <a class="submenu_item" href="#"><li>Divorcio express en aumento</li></a>
+                    <a class="submenu_item" href="#"><li>Sobre la pensión de alimentos</li></a>
+                </ul>
+            </li>
+            <li class="anidado">
+                <a class="menu_item" href="#">Acerca de ... <span class="arrow">&#9660;</span></a> 
+                <ul class="submenu">
+                    <a class="submenu_item" href="#"><li>Síntesis curricular</li></a>
+                    <a class="submenu_item" href="#"><li>Actividad académica</li></a>
+                    <a class="submenu_item" href="#"><li>Cursos y diplomados</li></a>
+                    <a class="submenu_item" href="#"><li>Experiencia laboral</li></a>
+                    <a class="submenu_item" href="#"><li>Publicaciones</li></a>
+                </ul>
+            </li>
+            <li><a class="menu_item" href="#">Menú de servicios</a></li>
+        </ul>
+	</header>
+	
+	<article>
+		
+		<h2 class="titulo_principal">Un abogado en chiapas para todas sus necesidades legales</h2>
+		
+
+		<p>
+			Nos especializamos en: 
+		</p>
+
+		<ul class="lista_check">
+			<li style="text-align: left;"><em> Defensa penal ante el ministerio público y juzgados.</em></li>
+			<li style="text-align: left;"><em> Desalojos judiciales por incumplimiento de rentas.</em></li>
+			<li style="text-align: left;"><em> Custodia de menores e Investigaciones Privadas.</em></li>
+			<li style="text-align: left;"><em> Defensa legal contra bancos.</em></li>
+			<li style="text-align: left;"><em> Peritajes.</em></li>
+			<li style="text-align: left;"><em> Despido Injustificado (Asesoría Obrero-Patronal).</em></li>
+			<li style="text-align: left;"><em> Divorcio Express y Pensión de Alimentos.</em></li>
+			<li style="text-align: left;"><em> Gestión de Cobranza y Recuperación de Cartera Vencida.</em></li>
+		</ul>
+		
+		<p>
+			Para ver un cátalogo de nuestros servicios visite nuestro  <a class="link" title="Menú de Servicios" href="http://abogadochiapas.com/servicios/">menú de servicios</a>.
+		</p>
+		
+		<div class="share_buttons" >
+			<div class="tweet" >
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://coellosyasociados.com/" data-text="Coello's & Asociados - Abogado en Chiapas" data-via="Gabriel_CoelloS" data-lang="es">Twittear</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			</div>
+			
+			<div class="share">
+				<div class="fb-share-button" data-href="http://coellosyasociados.com/" data-layout="button_count"></div>
+			</div>
+			<div class="plus">
+				<div class="g-plusone" data-annotation="inline" data-width="300" data-href="http://coellosyasociados.com/"></div>
+			</div>
+			
+		</div>
+		
+		
+		<div class="media_container" >
+			<div class="vgallery">
+			<h2 class="titulo_media">Galería de videos</h2>
+			<div id="video_slider" style="position: relative; top: 0px; left: 0px; width: 560px; height: 315px;">
+    
+    			<div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 560px; height: 315px;">
+        			<div>
+                	<div u="player" style="position: relative; top: 0px; left: 0px; width: 640px; height: 390px; overflow: hidden;">
+        				<iframe width="560" height="315" src="https://www.youtube.com/embed/e8Vgj5nLHLI" frameborder="0" allowfullscreen></iframe>
+        			</div>
+        			</div>
+        		
+        			<div>
+                	<div u="player" style="position: relative; top: 0px; left: 0px; width: 640px; height: 390px; overflow: hidden;">
+        				<iframe width="560" height="315" src="https://www.youtube.com/embed/93A8KLqms1w" frameborder="0" allowfullscreen></iframe>
+        			</div>
+        			</div>
+        		
+        			<div>
+                	<div u="player" style="position: relative; top: 0px; left: 0px; width: 640px; height: 390px; overflow: hidden;">
+        				<iframe width="560" height="315" src="https://www.youtube.com/embed/miEMMxMDLYU" frameborder="0" allowfullscreen></iframe>
+        			</div>
+        			</div>
+        		
+        			<div>
+                	<div u="player" style="position: relative; top: 0px; left: 0px; width: 640px; height: 390px; overflow: hidden;">
+        				<iframe width="560" height="315" src="https://www.youtube.com/embed/ekzo295zTgw" frameborder="0" allowfullscreen></iframe>
+        			</div>
+        			</div>
+    			</div>
+    		
+        		<span u="arrowleft" class="jssora05l" style="width: 40px; height: 40px; top: 123px; left: 8px;">
+        		</span>
+        		<!-- Arrow Right -->
+        		<span u="arrowright" class="jssora05r" style="width: 40px; height: 40px; top: 123px; right: 8px;">
+        		</span>        
+			</div>
+			</div>
+			
+			<div class="social_network">
+				<div >
+					<h2 class="titulo_media">Contáctenos:</h2>
+					<p class="media-text">
+					Resolveremos sus dudas y asesoraremos con sus problemas legales.
+					<br><br>
+					Teléfonos:
+					<br>
+                        961  24 54 650
+                        <br>
+                        961  25 4 34 74  
+                        <br><br>
+                        Email: 
+                        <br>
+                        coellosyasociados@hotmail.com
+					</p>
+				</div>
+				<div >
+					<h2 class="titulo_media">Síganos en:</h2>
+					<a href="https://www.facebook.com/coellosyasociados" target="_blank"><img class="red_social" src="img/facebook.png"></a>
+					<a href="https://twitter.com/Gabriel_CoelloS" target="_blank"><img class="red_social" src="img/twitter.png"></a>
+					<a href="https://www.youtube.com/channel/UC4rTBmaJLcYgeYMPVSgnppA/videos" target="_blank"><img class="red_social" src="img/youtube.png"></a>
+				</div>
+			</div>
+		</div>	
+
+		
+		
+		<h2 class="titulo_h2">Misión</h2>
+
+		<p>
+			El Despacho Jurídico Coello’s & Asociados es una asociación de profesionales que tiene como misión principal, solucionar los conflictos y necesidades legales de nuestros clientes, 
+			planteándoles las mejores alternativas para alcanzar el éxito deseado en las acciones efectuadas, compartiéndoles nuestra filosofía y valores, con el objeto de asegurar una relación armoniosa,  
+			honesta, responsable y con alto sentido de profesionalismo, garantizándoles atención personalizada así como el apoyo total de nuestros asociados, peritos y demás auxiliares,  
+			obteniendo de esta manera una adecuada competitividad con el propósito de lograr nuestra permanencia, desarrollo y crecimiento en el ámbito de la Seguridad Pública, Procuración y 
+			Administración de Justicia.
+		</p>
+	
+		<h2 class="titulo_h2">Visión</h2>	
+
+		<p>
+			El Despacho Jurídico Coello’s & Asociados tiene como visión principal, servir con valores éticos y lealtad, cada vez a un mayor número de clientes, comunidades, 
+			grupos sociales, personas físicas y/o morales, creando una <a class="link" title="Bolsa de Trabajo" href="http://abogadochiapas.com/bolsa-de-trabajo/"> exitosa red de asociados</a> 
+			que ofrezcan la mejor asesoría y representación legal como <a class="link" title="Menú de Servicios" href="http://abogadochiapas.com/servicios/">abogados en Chiapas</a>. 
+			Así como el mejor ambiente laboral para nuestros colaboradores, consecuencia de una constante, continua y permanente innovación.
+		</p>
+		
+	</article>	
+
+	<footer>
+		<div class="contador_visitas">		
+		<img src="img/logo_s.png" alt="Coello's & Asociados" >
+		<br>
+		Coello's & Asociados
+		<br>
+		<a class="link" href="http://www.contadorvisitasgratis.com" target="_Blank" title="contador de visitas">contador de visitas</a><br>
+		<script type="text/javascript" src="http://counter6.allfreecounter.com/private/countertab.js?c=213b0a4e5f1617e2e32b5f26800a3965"></script>
+		</div>
+		
+		<div class="footer_text_margin"><strong class="custom">"Para que lo legal sea justo"</strong></div>
+		<div class="footer_text">Copyright © 2015 Abogado en Chiapas - Coello's & Asociados.</div>		 
+		<div class="footer_text">Todos los derechos Reservados.</div>		 
+		<div class="footer_text_margin">Teléfonos: <strong class="custom">961.25.4.34.74</strong> y/o <strong class="custom">961.24.54.650</strong></div>
+		<div class="footer_text">e-mail: coellosyasociados@hotmail.com</div>
+		 
+		 <div class="up_arrow">
+		 	<a href="#top"> <img src="img/up.png" title="volver arriba" ></div>
+		 </div>
+		 
+	</footer>
+
+</body>
+
+
+</html> 

@@ -1,0 +1,578 @@
+*** CSS que contienen los estilos básicos ***/
+
+
+
+/*----- cabecera -----*/
+html{}
+
+header{
+	background: #4b4b4b;
+	/*background-image: url(resources/footer.png);
+    background-repeat: repeat;*/
+	position: relative;
+	top:0px;	
+	-moz-user-select: none;	
+	-webkit-user-select: none;
+ 	cursor:default;
+    margin: 0px 0px 0px 0px;
+    
+/* Para WebKit *
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(75,75,75,1)), to(rgba(60,60,60,1)));
+
+/* Para Mozilla *
+	background: -moz-linear-gradient(top, rgba(75,75,75,1), rgba(60,60,60,1));
+
+/* Para anteriores a IE8 *
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#4B4B4B', EndColorstr='#3c3c3c');
+
+/* Para IE8 *
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#4B4B4B', EndColorstr='#3c3c3c');
+*/	
+	
+	width: 100%;
+	border: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color:  #666;
+    box-shadow: 0px 2px 0px #000,0px 4px 0px #dfdfdf;
+    -moz-box-shadow: 0px 2px 0px #000,0px 4px 0px #dfdfdf;
+    -webkit-box-shadow: 0px 2px 0px #000,0px 4px 0px #dfdfdf;  
+	text-shadow: -1px -1px #000;
+}
+
+.header_title{
+	position: absolute;
+	top: 40px;
+	left:50px;
+}
+
+img.logo_header{
+	
+}
+
+.r_header,
+.l_header{
+	float:left;
+}
+
+
+/*----- cuerpo -----*/
+html body,
+html body p
+{	
+	color: #454545;
+} 
+
+article p{
+	text-align: justify;
+}
+
+body{
+  	background-image: url("resources/clearbg.png");
+  	background-repeat: repeat;  
+  	font-size: 16px;
+}
+
+article{	
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+/*----- pie de página -----*/
+
+footer {
+	position: relative;
+	/*bottom:0px; J*/
+	color: #ffffff;
+	margin-top: 80px;
+	padding: 2.5em 0;
+	/*
+	width: 100%;
+	height: 200px;	*/
+	background-image: url(resources/footer.png);
+    background-repeat: repeat;    
+	border: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #666666;
+    -moz-box-shadow:0px -2px 0px #111,0px -3px 0px #ffffff;
+    -webkit-box-shadow:0px -2px 0px #111,0px -3px 0px #ffffff;
+    box-shadow: 0px -2px 0px #111,0px -3px 0px #ffffff;
+    overflow: hidden;  /*Jahaziel*/
+    /*float: left;*/
+}
+
+footer .contador_visitas .count{
+	overflow: hidden;
+}
+
+footer .contador_visitas{
+	float: left;
+	padding: 0 3em 0 3em;
+	margin: 0em;
+	overflow: hidden;
+	text-align: center;
+}
+footer .footer_parrafo{
+	color: white;
+	font-family: serif;
+	font-size: 1.1em;
+}
+
+footer .footer_text{
+	color: white;
+	font-family: serif;
+	font-size: 1.1em;
+	padding: 0em 0;
+	margin: 0;
+	display: block;
+}
+
+footer .footer_text2{
+	display: block;
+	padding: 0 0 1em 0;
+	color: white;
+
+}
+
+footer .footer_textY{
+	color: #c18e04;
+	font-size: 1em;
+	font-family: serif;
+	text-align: center;
+	font-weight: bold;
+	/*margin: 1.5em;
+	padding: 1.5em;*/
+	display: block;
+}
+
+footer .footer_block_center{
+	text-align: center;
+	color: white;
+	padding: 2em 2em;
+	margin: 0.2em 90px 0 90px; 
+
+}
+
+footer .up_arrow{
+	position: absolute;
+	right: 1em;
+	top: 2.2em;
+	margin: 0;
+	padding: 0 3em 0 3em;
+}
+footer .up_arrow figure{
+	overflow: hidden;
+}
+
+
+
+
+
+
+/*----- lista con simbolo de palomita -----*/
+ul.lista_check {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.lista_check li {
+    background-image: url(resources/check.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px; 
+    padding-left: 34px;
+    min-height:28px;
+	margin-top: 10px;
+    padding-top:7px;
+  	font-size:16px;
+}
+
+/*----- links genéricos -----*/
+strong.custom{
+	font-size:14px;
+}
+
+strong.custom,
+a.link{
+	text-decoration:none;
+	color:#cc9e21;
+	color:#c18e04;
+}
+
+a.link:hover {
+    color: #C2971F;
+  	text-shadow: 0px 0px 0px #C2971F;
+}
+
+a {
+outline: 0;
+}
+
+a: hover,
+a: active,
+a: focus {
+     outline: none;
+}
+
+input::-moz-focus-inner {
+border: 0;
+}
+
+
+
+/*----- titulos -----*/
+h2.titulo_h2{
+  	font-size:26px;
+  	text-shadow: 1px 1px #ffffff;  
+}
+
+h2.titulo_media{
+  	font-size:26px;
+	color:#cc9e21;
+	text-shadow: 1px -1px #111;
+}
+
+.titulo_m{
+	text-align: center;
+	font-size:36px;
+	color:#cc9e21;
+	text-shadow: 1px 1px #202020; 
+}
+
+.titulo_s{
+	text-align: center;
+	font-size:24px;
+	color:#fafafa;
+	text-shadow: 1px 1px #202020; 
+}
+
+
+h2.titulo_principal{
+	font-size:26px;
+	color:#cc9e21;
+}
+
+.titulo_slider{
+	margin:0px;	
+	text-align: center;
+	font-size:36px;
+	color:#fafafa;
+	text-shadow: 1px 1px #202020; 
+}
+
+/*----- textos -----*/
+.slider_text_a,
+.slider_text_b,
+.slider_text_c{
+	position: absolute; 
+	width: 450px; 
+	background-color: rgba(40, 40, 40, 0.8);
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom:10px;
+    text-align: left; 
+    color: #FFFFFF;
+    text-shadow: 1px 1px #171717; 
+}
+
+.slider_text_a{
+	top: 20px; 
+	right: -10px; 	
+    line-height: 30px; 
+    font-size: 22px;
+}
+
+.slider_text_c{
+	top: 20px; 
+	right: -10px; 	
+    line-height: 36px; 
+    font-size: 22px;
+    text-align: center;
+}
+
+.slider_text_b{
+	top: 20px; 
+	right: 0px; 	
+    line-height: 22px; 
+    font-size: 19px;
+}
+
+.media-text{
+	text-shadow: 1px 1px #111;
+	color:#fafafa;
+}
+
+/*----- contendor de medios -----*/
+
+div.media_container{
+
+	width:100%;
+	margin-top: 50px;
+	height: 400px; 
+	background: #555555;
+	border-radius: 12px;
+	border: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color:  #888888;
+    border-top-color:#333333;
+    border-right-color: #333333;
+    box-shadow: -11px 11px 16px 0px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: -11px 11px 16px 0px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: -11px 11px 16px 0px rgba(0, 0, 0, 0.8); 
+    overflow: hidden; 
+    
+}
+
+/*.video_slider{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video_slider iframe,
+.video_slider object,
+.video_slider embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+} Jahaziel*/
+
+
+div.vgallery{
+	padding-left:12px;
+	float:left;
+	width: 60%;
+	height: 391px;
+}
+
+div.social_network{
+    float:right;
+	height: 391px;	
+	width: 35%;
+	padding-right:12px;
+}
+
+img.red_social{
+	display:inline;
+	margin-left:8px;	
+}
+
+
+
+
+
+
+
+
+
+		div.plus{
+			/*width: 55%;	Jahaziel*/
+			float:right;
+/*			margin-top : -2px; Jahaziel 	*/
+			display: inline-block;
+		}
+
+		div.share{
+			/*width: 23%;	Jahaziel*/
+			float:right; /*jahaziel*/
+			display: inline-block;
+		}
+
+		div.tweet{
+			/*width: 22%; jahaziel*/
+			float:right; /*jahaziel*/
+			display: inline-block;
+		} 	
+
+
+
+/*Esto es el menu desplegable
+*
+*
+*/
+
+
+
+ul.menu {
+	position: relative;  /*Jahaziel*/
+    /*bottom: 40px;*/
+    /*margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+	*/
+	/*left: 0px;
+	right: 0px; Jahaziel*/
+	top: -5.5em;
+    text-align: left;
+    display: block;  /*jahaziel era inline*/
+    margin: 0;
+    padding: 0px 4px 0px 14%;
+	list-style: none;
+	border: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color:  #333333;
+    background-color: rgba(40, 40, 40, 0.8);
+    /*
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1),0px 0px 0px 2px rgba(120, 120, 120, 1);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1),0px 0px 0px 2px rgba(120, 120, 120, 1);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1),0px 0px 0px 2px rgba(120, 120, 120, 1);
+    */
+
+
+/*
+ul.menu > li:first-child{
+  	border-radius: 8px 0px 0px 8px;
+}
+
+ul.menu > li:last-child{
+	border-radius: 0px 8px 8px 0px;
+}
+*/
+    /* Para WebKit 
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(240,240,240,1)), to(rgba(190,190,190,1)));
+
+	/* Para Mozilla 
+	background: -moz-linear-gradient(top, rgba(240,240,240,1), rgba(190,190,190,1));
+
+	/* Para anteriores a IE8 
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#F0F0F0', EndColorstr='#BEBEBE');
+
+	/* Para IE8 
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#F0F0F0', EndColorstr='#BEBEBE');
+	*/
+}
+
+
+ul.menu li {
+	background-color: transparent;
+  	font: bold 12px/18px sans-serif;
+  	display: inline-block;
+  	margin-right: 0;
+  	position: relative;
+  	padding: 1em 1em;
+  	/*background: #fff;*/
+  	cursor: pointer;
+	
+}
+
+
+ul.menu > li.anidado:hover {
+	background-color: rgba(70, 70, 70, 0.8);
+	padding: 7px 12px;
+  	border-radius: 8px 8px 0px 0px;
+  	border: solid;
+    border-width: 1px 1px 0px 1px;
+    border-color:  #777777;
+}
+
+
+ul.menu li ul.submenu {
+	z-index:99; /*Jahaziel*/
+	border: solid;
+    border-width: 0px 1px 1px 15px;
+    border-color:  #777777;	
+  	background-color: rgba(70, 70, 70, 0.9);
+  	padding: 0 0 0 0;
+  	position: absolute;
+  	top: 32px;
+  	left: 0;
+  	width: 200px;
+  	/*-webkit-box-shadow: -1px 5px 3px 2px rgba(30, 0, 0, 0.5);
+  	-moz-box-shadow: -1px 5px 3px 2px rgba(30, 0, 0, 0.5);
+  	box-shadow: -1px 5px 3px 2px rgba(30, 0, 0, 0.5);
+  	*/
+  	display: none;
+  	opacity: 0;
+  	visibility: hidden;
+  	-webkit-transiton: opacity 0.5s;
+  	-moz-transition: opacity 0.5s;
+  	-ms-transition: opacity 0.5s;
+  	-o-transition: opacity 0.5s;
+  	-transition: opacity 0.5s;
+}
+
+ul.menu li ul.submenu li { 
+	
+  	display: block; 
+  	color: #dadada;
+  	text-shadow: 0 -1px 0 #000;
+}
+
+a.menu_item{
+	text-decoration:none;
+	color:#dadada;
+	text-shadow: -1px -1px #000000;  
+
+	}
+
+a.submenu_item{
+	text-decoration:none;	
+	text-shadow: none; 
+}
+
+ul.menu li ul.submenu li:hover,
+a.submenu_item:hover{
+	color:#ffffff;
+	text-shadow: 1px 1px #444444;
+}
+
+ul.menu li ul.submenu li:hover { 	
+	background-color: rgba(240, 158, 33, 0.9); 
+	
+}
+
+ul.menu li:hover ul.submenu {
+  	display: block;
+  	opacity: 1;
+  	visibility: visible;
+   	-webkit-transiton: opacity 0.5s;
+  	-moz-transition: opacity 0.5s;
+  	-ms-transition: opacity 0.5s;
+  	-o-transition: opacity 0.5s;
+  	-transition: opacity 0.5s;
+}
+
+
+@media screen and (max-width: 1060px){
+	ul.menu{
+		position: initial;
+	}
+	body{
+
+	}
+}
+
+
+@media screen and (max-width: 650px){
+	
+	div.share_buttons{
+	top: 0em;
+	position: initial;
+	}
+
+		div.share_buttons div{
+		float: none;
+		display: inline-block;
+		padding: .5em;
+		}
+
+}
+
+@media screen and (max-width: 575px){
+	
+	div.share_buttons{
+	top: 0em;
+	position: initial;
+	}
+
+		div.share_buttons div{
+		float: none;
+		display: block;
+		padding: .5em;
+		}
+
+}

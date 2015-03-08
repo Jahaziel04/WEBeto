@@ -1,0 +1,321 @@
+/**** CSS que contienen los estilos básicos ***/
+
+
+
+/*----- cabecera -----*/
+
+header{
+	background: #4b4b4b;
+	/*background-image: url(resources/footer.png);
+    background-repeat: repeat;*/
+	position: relative;
+	top:0px;	
+	-moz-user-select: none;	
+	-webkit-user-select: none;
+ 	cursor:default;
+    margin: 0px 0px 0px 0px;
+    
+/* Para WebKit *
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(75,75,75,1)), to(rgba(60,60,60,1)));
+
+/* Para Mozilla *
+	background: -moz-linear-gradient(top, rgba(75,75,75,1), rgba(60,60,60,1));
+
+/* Para anteriores a IE8 *
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#4B4B4B', EndColorstr='#3c3c3c');
+
+/* Para IE8 *
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#4B4B4B', EndColorstr='#3c3c3c');
+*/	
+	
+	width: 100%;
+	border: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color:  #666;
+    box-shadow: 0px 2px 0px #000,0px 4px 0px #dfdfdf;
+    -moz-box-shadow: 0px 2px 0px #000,0px 4px 0px #dfdfdf;
+    -webkit-box-shadow: 0px 2px 0px #000,0px 4px 0px #dfdfdf;  
+	text-shadow: -1px -1px #000;
+}
+
+.header_title{
+	position: absolute;
+	top: 40px;
+	left:50px;
+}
+
+img.logo_header{
+	
+}
+
+.r_header,
+.l_header{
+	float:left;
+}
+
+
+/*----- cuerpo -----*/
+html body,
+html body p
+{	
+	color: #454545;
+} 
+
+p{
+	text-align: justify;
+}
+
+body{
+	min-width: 1280px;
+	padding:0;
+	margin:0;
+  	background-image: url("resources/clearbg.png");
+  	background-repeat: repeat;  
+}
+
+article{	
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+/*----- pie de página -----*/
+
+div.up_arrow{
+	text-align: center;
+	position: absolute;
+    top: 60px;
+    right: 50px;
+}
+
+div.footer_text_margin,
+div.footer_text{
+	text-align: center;
+}
+
+div.footer_text_margin{
+	margin-top: 30px;
+}
+
+div.contador_visitas{
+	text-align: center;
+	position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+footer {
+	position: relative;
+	bottom:0px;
+	color: #ffffff;
+	margin-top: 80px;
+	padding:0px;
+	
+	width: 100%;
+	height: 200px;	
+	background-image: url(resources/footer.png);
+    background-repeat: repeat;    
+	border: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #666666;
+    -moz-box-shadow:0px -2px 0px #111,0px -3px 0px #ffffff;
+    -webkit-box-shadow:0px -2px 0px #111,0px -3px 0px #ffffff;
+    box-shadow: 0px -2px 0px #111,0px -3px 0px #ffffff;
+}
+
+/*----- lista con simbolo de palomita -----*/
+ul.lista_check {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.lista_check li {
+    background-image: url(resources/check.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px; 
+    padding-left: 34px;
+    min-height:28px;
+	margin-top: 10px;
+    padding-top:7px;
+  	font-size:16px;
+}
+
+/*----- links genéricos -----*/
+strong.custom{
+	font-size:14px;
+}
+
+strong.custom,
+a.link{
+	text-decoration:none;
+	color:#cc9e21;
+	color:#c18e04;
+}
+
+a.link:hover {
+    color: #C2971F;
+  	text-shadow: 0px 0px 0px #C2971F;
+}
+
+a {
+outline: 0;
+}
+
+a: hover,
+a: active,
+a: focus {
+     outline: none;
+}
+
+input::-moz-focus-inner {
+border: 0;
+}
+
+
+
+/*----- titulos -----*/
+h2.titulo_h2{
+  	font-size:26px;
+  	text-shadow: 1px 1px #ffffff;  
+}
+
+h2.titulo_media{
+  	font-size:26px;
+	color:#cc9e21;
+	text-shadow: 1px -1px #111;
+}
+
+.titulo_m{
+	text-align: center;
+	font-size:36px;
+	color:#cc9e21;
+	text-shadow: 1px 1px #202020; 
+}
+
+.titulo_s{
+	text-align: center;
+	font-size:24px;
+	color:#fafafa;
+	text-shadow: 1px 1px #202020; 
+}
+
+
+h2.titulo_principal{
+	font-size:26px;
+	color:#cc9e21;
+}
+
+.titulo_slider{
+	margin:0px;	
+	text-align: center;
+	font-size:36px;
+	color:#fafafa;
+	text-shadow: 1px 1px #202020; 
+}
+
+/*----- textos -----*/
+.slider_text_a,
+.slider_text_b,
+.slider_text_c{
+	position: absolute; 
+	width: 450px; 
+	background-color: rgba(40, 40, 40, 0.8);
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom:10px;
+    text-align: left; 
+    color: #FFFFFF;
+    text-shadow: 1px 1px #171717; 
+}
+
+.slider_text_a{
+	top: 20px; 
+	right: -10px; 	
+    line-height: 30px; 
+    font-size: 22px;
+}
+
+.slider_text_c{
+	top: 20px; 
+	right: -10px; 	
+    line-height: 36px; 
+    font-size: 22px;
+    text-align: center;
+}
+
+.slider_text_b{
+	top: 20px; 
+	right: 0px; 	
+    line-height: 22px; 
+    font-size: 19px;
+}
+
+.media-text{
+	text-shadow: 1px 1px #111;
+	color:#fafafa;
+}
+
+/*----- contendor de medios -----*/
+
+div.media_container{
+
+	width:100%;
+	margin-top: 50px;
+	height: 403px;
+	background: #555555;
+	border-radius: 12px;
+	border: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color:  #888888;
+    border-top-color:#333333;
+    border-right-color: #333333;
+    box-shadow: -11px 11px 16px 0px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: -11px 11px 16px 0px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: -11px 11px 16px 0px rgba(0, 0, 0, 0.8);  
+    
+}
+
+div.vgallery{
+	padding-left:12px;
+	float:left;
+	width: 60%;
+	height: 391px;
+}
+
+div.social_network{
+    float:right;
+	height: 391px;	
+	width: 35%;
+	padding-right:12px;
+}
+
+
+
+img.red_social{
+	display:inline;
+	margin-left:8px;	
+}
+
+div.share_buttons{
+	width:550px;
+	position: absolute;
+    bottom: 3px;
+    right:0px;
+}
+
+div.plus{	
+	float:right;
+	margin-top : -2px;
+}
+
+div.share{	
+	float:left;
+}
+
+div.tweet{
+	float:left;
+}
+
+
+
