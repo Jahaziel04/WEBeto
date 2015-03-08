@@ -87,8 +87,8 @@ footer {
 	margin-top: 80px;
 	padding: 2.5em 0;
 	/*
-	width: 100%;
-	height: 200px;	*/
+	width: 100% J;
+	height: 200px;	J*/
 	background-image: url(resources/footer.png);
     background-repeat: repeat;    
 	border: solid;
@@ -98,7 +98,7 @@ footer {
     -webkit-box-shadow:0px -2px 0px #111,0px -3px 0px #ffffff;
     box-shadow: 0px -2px 0px #111,0px -3px 0px #ffffff;
     overflow: hidden;  /*Jahaziel*/
-    /*float: left;*/
+    /*float: left; J*/
 }
 
 footer .contador_visitas .count{
@@ -326,7 +326,7 @@ div.media_container{
     
 }
 
-/*.video_slider{
+/*.video_slider Responsive del video{
 	position: relative;
 	padding-bottom: 56.25%;
 	padding-top: 30px;
@@ -371,7 +371,7 @@ img.red_social{
 
 
 div.share_buttons{
-	/*width:600px;*/
+	/*width:600px; Jahziel*/
 	position: relative;
 		top: -2em;
 }
@@ -543,7 +543,7 @@ ul.menu li:hover ul.submenu {
   	-transition: opacity 0.5s;
 }
 
-
+/*Jahaziel*/
 @media screen and (max-width: 1060px){
 	ul.menu{
 		position: initial;
@@ -553,7 +553,7 @@ ul.menu li:hover ul.submenu {
 	}
 }
 
-
+/*Jahaziel*/
 @media screen and (max-width: 650px){
 	
 	div.share_buttons{
@@ -568,7 +568,7 @@ ul.menu li:hover ul.submenu {
 		}
 
 }
-
+/*Jahaziel*/
 @media screen and (max-width: 575px){
 	
 	div.share_buttons{
@@ -583,7 +583,7 @@ ul.menu li:hover ul.submenu {
 		}
 
 }
-
+/*Jahaziel*/
 @media screen and (max-width: 1010px){
 	footer .footer_textY{
 		padding-top: 14em
